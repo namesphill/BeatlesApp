@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450103B4235CFCF8000844ED /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450103B3235CFCF8000844ED /* HostingController.swift */; };
 		45B89A22235BC5E400A4B4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A21235BC5E400A4B4EF /* AppDelegate.swift */; };
 		45B89A24235BC5E400A4B4EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */; };
 		45B89A26235BC5E400A4B4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A25235BC5E400A4B4EF /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450103B3235CFCF8000844ED /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		45B89A1E235BC5E400A4B4EF /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B89A21235BC5E400A4B4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				45B89A21235BC5E400A4B4EF /* AppDelegate.swift */,
 				45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */,
 				45B89A25235BC5E400A4B4EF /* ContentView.swift */,
+				450103B3235CFCF8000844ED /* HostingController.swift */,
 				45B89A27235BC5E900A4B4EF /* Assets.xcassets */,
 				45B89A2C235BC5E900A4B4EF /* LaunchScreen.storyboard */,
 				45B89A2F235BC5E900A4B4EF /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				45B89A22235BC5E400A4B4EF /* AppDelegate.swift in Sources */,
 				45B89A24235BC5E400A4B4EF /* SceneDelegate.swift in Sources */,
+				450103B4235CFCF8000844ED /* HostingController.swift in Sources */,
 				45B89A26235BC5E400A4B4EF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
