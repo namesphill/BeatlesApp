@@ -16,8 +16,8 @@
 		45B89A28235BC5E900A4B4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B89A27235BC5E900A4B4EF /* Assets.xcassets */; };
 		45B89A2B235BC5E900A4B4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B89A2A235BC5E900A4B4EF /* Preview Assets.xcassets */; };
 		45B89A2E235BC5E900A4B4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B89A2C235BC5E900A4B4EF /* LaunchScreen.storyboard */; };
-		45B89A39235BC5E900A4B4EF /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A38235BC5E900A4B4EF /* HelloWorldTests.swift */; };
-		45B89A44235BC5E900A4B4EF /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A43235BC5E900A4B4EF /* HelloWorldUITests.swift */; };
+		45B89A39235BC5E900A4B4EF /* BeatlesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A38235BC5E900A4B4EF /* BeatlesAppTests.swift */; };
+		45B89A44235BC5E900A4B4EF /* BeatlesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A43235BC5E900A4B4EF /* BeatlesAppUITests.swift */; };
 		45BDB743235E9544000C0BDC /* MomentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB742235E9544000C0BDC /* MomentCard.swift */; };
 		45BDB745235E963C000C0BDC /* MomentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB744235E963C000C0BDC /* MomentDetail.swift */; };
 		45BDB747235E995D000C0BDC /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB746235E995D000C0BDC /* HostingController.swift */; };
@@ -45,7 +45,7 @@
 		450103B5235DEB32000844ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		450103B7235DF310000844ED /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		450103B9235E06AA000844ED /* ArtistDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetail.swift; sourceTree = "<group>"; };
-		45B89A1E235BC5E400A4B4EF /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B89A1E235BC5E400A4B4EF /* BeatlesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeatlesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B89A21235BC5E400A4B4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		45B89A25235BC5E400A4B4EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +53,11 @@
 		45B89A2A235BC5E900A4B4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45B89A2D235BC5E900A4B4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45B89A2F235BC5E900A4B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45B89A34235BC5E900A4B4EF /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45B89A38235BC5E900A4B4EF /* HelloWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldTests.swift; sourceTree = "<group>"; };
+		45B89A34235BC5E900A4B4EF /* BeatlesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatlesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B89A38235BC5E900A4B4EF /* BeatlesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatlesAppTests.swift; sourceTree = "<group>"; };
 		45B89A3A235BC5E900A4B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45B89A3F235BC5E900A4B4EF /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45B89A43235BC5E900A4B4EF /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
+		45B89A3F235BC5E900A4B4EF /* BeatlesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeatlesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B89A43235BC5E900A4B4EF /* BeatlesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatlesAppUITests.swift; sourceTree = "<group>"; };
 		45B89A45235BC5E900A4B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45BDB742235E9544000C0BDC /* MomentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCard.swift; sourceTree = "<group>"; };
 		45BDB744235E963C000C0BDC /* MomentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetail.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		45B89A15235BC5E300A4B4EF = {
 			isa = PBXGroup;
 			children = (
-				45B89A20235BC5E400A4B4EF /* HelloWorld */,
-				45B89A37235BC5E900A4B4EF /* HelloWorldTests */,
-				45B89A42235BC5E900A4B4EF /* HelloWorldUITests */,
+				45B89A20235BC5E400A4B4EF /* BeatlesApp */,
+				45B89A37235BC5E900A4B4EF /* BeatlesAppTests */,
+				45B89A42235BC5E900A4B4EF /* BeatlesAppUITests */,
 				45B89A1F235BC5E400A4B4EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,14 +103,14 @@
 		45B89A1F235BC5E400A4B4EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45B89A1E235BC5E400A4B4EF /* HelloWorld.app */,
-				45B89A34235BC5E900A4B4EF /* HelloWorldTests.xctest */,
-				45B89A3F235BC5E900A4B4EF /* HelloWorldUITests.xctest */,
+				45B89A1E235BC5E400A4B4EF /* BeatlesApp.app */,
+				45B89A34235BC5E900A4B4EF /* BeatlesAppTests.xctest */,
+				45B89A3F235BC5E900A4B4EF /* BeatlesAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45B89A20235BC5E400A4B4EF /* HelloWorld */ = {
+		45B89A20235BC5E400A4B4EF /* BeatlesApp */ = {
 			isa = PBXGroup;
 			children = (
 				45B89A21235BC5E400A4B4EF /* AppDelegate.swift */,
@@ -128,7 +128,7 @@
 				45B89A2F235BC5E900A4B4EF /* Info.plist */,
 				45B89A29235BC5E900A4B4EF /* Preview Content */,
 			);
-			path = HelloWorld;
+			path = BeatlesApp;
 			sourceTree = "<group>";
 		};
 		45B89A29235BC5E900A4B4EF /* Preview Content */ = {
@@ -139,30 +139,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		45B89A37235BC5E900A4B4EF /* HelloWorldTests */ = {
+		45B89A37235BC5E900A4B4EF /* BeatlesAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				45B89A38235BC5E900A4B4EF /* HelloWorldTests.swift */,
+				45B89A38235BC5E900A4B4EF /* BeatlesAppTests.swift */,
 				45B89A3A235BC5E900A4B4EF /* Info.plist */,
 			);
-			path = HelloWorldTests;
+			path = BeatlesAppTests;
 			sourceTree = "<group>";
 		};
-		45B89A42235BC5E900A4B4EF /* HelloWorldUITests */ = {
+		45B89A42235BC5E900A4B4EF /* BeatlesAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				45B89A43235BC5E900A4B4EF /* HelloWorldUITests.swift */,
+				45B89A43235BC5E900A4B4EF /* BeatlesAppUITests.swift */,
 				45B89A45235BC5E900A4B4EF /* Info.plist */,
 			);
-			path = HelloWorldUITests;
+			path = BeatlesAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		45B89A1D235BC5E400A4B4EF /* HelloWorld */ = {
+		45B89A1D235BC5E400A4B4EF /* BeatlesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45B89A48235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 45B89A48235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesApp" */;
 			buildPhases = (
 				45B89A1A235BC5E400A4B4EF /* Sources */,
 				45B89A1B235BC5E400A4B4EF /* Frameworks */,
@@ -172,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = BeatlesApp;
 			productName = HelloWorld;
-			productReference = 45B89A1E235BC5E400A4B4EF /* HelloWorld.app */;
+			productReference = 45B89A1E235BC5E400A4B4EF /* BeatlesApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		45B89A33235BC5E900A4B4EF /* HelloWorldTests */ = {
+		45B89A33235BC5E900A4B4EF /* BeatlesAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45B89A4B235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorldTests" */;
+			buildConfigurationList = 45B89A4B235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesAppTests" */;
 			buildPhases = (
 				45B89A30235BC5E900A4B4EF /* Sources */,
 				45B89A31235BC5E900A4B4EF /* Frameworks */,
@@ -190,14 +190,14 @@
 			dependencies = (
 				45B89A36235BC5E900A4B4EF /* PBXTargetDependency */,
 			);
-			name = HelloWorldTests;
+			name = BeatlesAppTests;
 			productName = HelloWorldTests;
-			productReference = 45B89A34235BC5E900A4B4EF /* HelloWorldTests.xctest */;
+			productReference = 45B89A34235BC5E900A4B4EF /* BeatlesAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		45B89A3E235BC5E900A4B4EF /* HelloWorldUITests */ = {
+		45B89A3E235BC5E900A4B4EF /* BeatlesAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45B89A4E235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */;
+			buildConfigurationList = 45B89A4E235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesAppUITests" */;
 			buildPhases = (
 				45B89A3B235BC5E900A4B4EF /* Sources */,
 				45B89A3C235BC5E900A4B4EF /* Frameworks */,
@@ -208,9 +208,9 @@
 			dependencies = (
 				45B89A41235BC5E900A4B4EF /* PBXTargetDependency */,
 			);
-			name = HelloWorldUITests;
+			name = BeatlesAppUITests;
 			productName = HelloWorldUITests;
-			productReference = 45B89A3F235BC5E900A4B4EF /* HelloWorldUITests.xctest */;
+			productReference = 45B89A3F235BC5E900A4B4EF /* BeatlesAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,7 +236,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 45B89A19235BC5E300A4B4EF /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 45B89A19235BC5E300A4B4EF /* Build configuration list for PBXProject "BeatlesApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -249,9 +249,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45B89A1D235BC5E400A4B4EF /* HelloWorld */,
-				45B89A33235BC5E900A4B4EF /* HelloWorldTests */,
-				45B89A3E235BC5E900A4B4EF /* HelloWorldUITests */,
+				45B89A1D235BC5E400A4B4EF /* BeatlesApp */,
+				45B89A33235BC5E900A4B4EF /* BeatlesAppTests */,
+				45B89A3E235BC5E900A4B4EF /* BeatlesAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B89A39235BC5E900A4B4EF /* HelloWorldTests.swift in Sources */,
+				45B89A39235BC5E900A4B4EF /* BeatlesAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B89A44235BC5E900A4B4EF /* HelloWorldUITests.swift in Sources */,
+				45B89A44235BC5E900A4B4EF /* BeatlesAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,12 +322,12 @@
 /* Begin PBXTargetDependency section */
 		45B89A36235BC5E900A4B4EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45B89A1D235BC5E400A4B4EF /* HelloWorld */;
+			target = 45B89A1D235BC5E400A4B4EF /* BeatlesApp */;
 			targetProxy = 45B89A35235BC5E900A4B4EF /* PBXContainerItemProxy */;
 		};
 		45B89A41235BC5E900A4B4EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45B89A1D235BC5E400A4B4EF /* HelloWorld */;
+			target = 45B89A1D235BC5E400A4B4EF /* BeatlesApp */;
 			targetProxy = 45B89A40235BC5E900A4B4EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,6 +440,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -464,16 +465,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BeatlesApp/Preview Content\"";
 				DEVELOPMENT_TEAM = K49NBJG6GQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BeatlesApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldAppTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
+				PRODUCT_NAME = BeatlesApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,16 +487,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"BeatlesApp/Preview Content\"";
 				DEVELOPMENT_TEAM = K49NBJG6GQ;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BeatlesApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldAppTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
+				PRODUCT_NAME = BeatlesApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,18 +509,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				INFOPLIST_FILE = BeatlesAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatlesApp.app/BeatlesApp";
 			};
 			name = Debug;
 		};
@@ -529,18 +530,18 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorldTests/Info.plist;
+				INFOPLIST_FILE = BeatlesAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld.app/HelloWorld";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeatlesApp.app/BeatlesApp";
 			};
 			name = Release;
 		};
@@ -549,17 +550,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorldUITests/Info.plist;
+				INFOPLIST_FILE = BeatlesAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HelloWorld;
+				TEST_TARGET_NAME = BeatlesApp;
 			};
 			name = Debug;
 		};
@@ -568,24 +569,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HelloWorldUITests/Info.plist;
+				INFOPLIST_FILE = BeatlesAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.namesphill.BeatlesApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HelloWorld;
+				TEST_TARGET_NAME = BeatlesApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45B89A19235BC5E300A4B4EF /* Build configuration list for PBXProject "HelloWorld" */ = {
+		45B89A19235BC5E300A4B4EF /* Build configuration list for PBXProject "BeatlesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B89A46235BC5E900A4B4EF /* Debug */,
@@ -594,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45B89A48235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		45B89A48235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B89A49235BC5E900A4B4EF /* Debug */,
@@ -603,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45B89A4B235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
+		45B89A4B235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B89A4C235BC5E900A4B4EF /* Debug */,
@@ -612,7 +613,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45B89A4E235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
+		45B89A4E235BC5E900A4B4EF /* Build configuration list for PBXNativeTarget "BeatlesAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45B89A4F235BC5E900A4B4EF /* Debug */,
