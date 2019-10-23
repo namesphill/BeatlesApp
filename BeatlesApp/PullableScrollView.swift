@@ -1,6 +1,6 @@
 //
 //  PullableScrollView.swift
-//  HelloWorld
+//  BeatlesApp
 //
 //  Created by Felipe Acosta on 10/23/19.
 //  Copyright © 2019 Felipe Acosta. All rights reserved.

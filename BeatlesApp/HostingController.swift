@@ -1,6 +1,6 @@
 //
 //  HostingController.swift
-//  HelloWorld
+//  BeatlesApp
 //
 //  Created by Felipe Acosta on 10/21/19.
 //  Copyright © 2019 Felipe Acosta. All rights reserved.

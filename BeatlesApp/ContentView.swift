@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  HelloWorld
+//  BeatlesApp
 //
 //  Created by Felipe Acosta on 10/19/19.
 //  Copyright © 2019 Felipe Acosta. All rights reserved.
