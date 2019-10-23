@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		450103B4235CFCF8000844ED /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450103B3235CFCF8000844ED /* HostingController.swift */; };
+		450103B6235DEB33000844ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450103B5235DEB32000844ED /* Extensions.swift */; };
+		450103B8235DF311000844ED /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450103B7235DF310000844ED /* Artist.swift */; };
+		450103BA235E06AA000844ED /* ArtistDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450103B9235E06AA000844ED /* ArtistDetail.swift */; };
 		45B89A22235BC5E400A4B4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A21235BC5E400A4B4EF /* AppDelegate.swift */; };
 		45B89A24235BC5E400A4B4EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */; };
 		45B89A26235BC5E400A4B4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A25235BC5E400A4B4EF /* ContentView.swift */; };
@@ -16,6 +18,10 @@
 		45B89A2E235BC5E900A4B4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B89A2C235BC5E900A4B4EF /* LaunchScreen.storyboard */; };
 		45B89A39235BC5E900A4B4EF /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A38235BC5E900A4B4EF /* HelloWorldTests.swift */; };
 		45B89A44235BC5E900A4B4EF /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B89A43235BC5E900A4B4EF /* HelloWorldUITests.swift */; };
+		45BDB743235E9544000C0BDC /* MomentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB742235E9544000C0BDC /* MomentCard.swift */; };
+		45BDB745235E963C000C0BDC /* MomentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB744235E963C000C0BDC /* MomentDetail.swift */; };
+		45BDB747235E995D000C0BDC /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDB746235E995D000C0BDC /* HostingController.swift */; };
+		45ED138C2360EC2600638C55 /* PullableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45ED138B2360EC2600638C55 /* PullableScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		450103B3235CFCF8000844ED /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		450103B5235DEB32000844ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		450103B7235DF310000844ED /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		450103B9235E06AA000844ED /* ArtistDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetail.swift; sourceTree = "<group>"; };
 		45B89A1E235BC5E400A4B4EF /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B89A21235BC5E400A4B4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		45B89A3F235BC5E900A4B4EF /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B89A43235BC5E900A4B4EF /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		45B89A45235BC5E900A4B4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BDB742235E9544000C0BDC /* MomentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCard.swift; sourceTree = "<group>"; };
+		45BDB744235E963C000C0BDC /* MomentDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetail.swift; sourceTree = "<group>"; };
+		45BDB746235E995D000C0BDC /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		45ED138B2360EC2600638C55 /* PullableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullableScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +116,13 @@
 				45B89A21235BC5E400A4B4EF /* AppDelegate.swift */,
 				45B89A23235BC5E400A4B4EF /* SceneDelegate.swift */,
 				45B89A25235BC5E400A4B4EF /* ContentView.swift */,
-				450103B3235CFCF8000844ED /* HostingController.swift */,
+				45BDB746235E995D000C0BDC /* HostingController.swift */,
+				450103B5235DEB32000844ED /* Extensions.swift */,
+				450103B7235DF310000844ED /* Artist.swift */,
+				450103B9235E06AA000844ED /* ArtistDetail.swift */,
+				45BDB742235E9544000C0BDC /* MomentCard.swift */,
+				45BDB744235E963C000C0BDC /* MomentDetail.swift */,
+				45ED138B2360EC2600638C55 /* PullableScrollView.swift */,
 				45B89A27235BC5E900A4B4EF /* Assets.xcassets */,
 				45B89A2C235BC5E900A4B4EF /* LaunchScreen.storyboard */,
 				45B89A2F235BC5E900A4B4EF /* Info.plist */,
@@ -270,10 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BDB745235E963C000C0BDC /* MomentDetail.swift in Sources */,
+				45BDB743235E9544000C0BDC /* MomentCard.swift in Sources */,
 				45B89A22235BC5E400A4B4EF /* AppDelegate.swift in Sources */,
 				45B89A24235BC5E400A4B4EF /* SceneDelegate.swift in Sources */,
-				450103B4235CFCF8000844ED /* HostingController.swift in Sources */,
+				450103BA235E06AA000844ED /* ArtistDetail.swift in Sources */,
+				450103B8235DF311000844ED /* Artist.swift in Sources */,
+				45BDB747235E995D000C0BDC /* HostingController.swift in Sources */,
 				45B89A26235BC5E400A4B4EF /* ContentView.swift in Sources */,
+				45ED138C2360EC2600638C55 /* PullableScrollView.swift in Sources */,
+				450103B6235DEB33000844ED /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,16 +462,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = K49NBJG6GQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,16 +484,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld/Preview Content\"";
+				DEVELOPMENT_TEAM = K49NBJG6GQ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = io.HelloWorldAppTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
